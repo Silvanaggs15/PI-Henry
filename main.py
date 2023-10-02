@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import pandas as pd
+from typing import Union
 
 app = FastAPI()
 
@@ -70,12 +71,28 @@ def recomendacion_usuario(usuario_id):
 
     return {"Recomendaciones para el usuario": usuario_id, "juegos_recomendados": juegos_recomendados}
 
-@app.get("/userxgen/{genero}")
-def UserForGenre( genero : str ):
-    usuario = df[df['user_id'] == usuario_id]
-    return  "usuario que acumula mas horas jugadas" usuario
+@app.route('/users-for-genre/<string:genre>', methods=['GET'])
+def user_for_genre(genre):
+    # Llama a la función UserForGenre para obtener la lista de usuarios para el género dado
+    users = UserForGenre(genre)
 
-@app.get("/top3juegos/{usuario_id}")
-def UsersRecommend( año : int ):
-    return "Top 3 juegos recomendados al usuario:" usuario_id
+    if users:
+        # Si se encontraron usuarios, devuelve la lista como respuesta JSON
+        return jsonify({'users': users})
+    else:
+        # Si no se encontraron usuarios para el género, devuelve un mensaje de error
+        return jsonify({'message': 'No se encontraron usuarios para este género'}), 404
+
+@app.route('/users-recommend/<int:year>', methods=['GET'])
+def users_recommend(year):
+    # Llama a la función UsersRecommend para obtener recomendaciones de juegos para el año dado
+    recommendations = UsersRecommend(year)
+
+    if recommendations:
+        # Si se encontraron recomendaciones, devuelve la lista de juegos como respuesta JSON
+        return jsonify({'recommendations': recommendations})
+    else:
+        # Si no se encontraron recomendaciones para el año, devuelve un mensaje de error
+        return jsonify({'message': 'No se encontraron recomendaciones para este año'}), 404
+
     
