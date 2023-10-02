@@ -62,13 +62,16 @@ Cree la funcion "def recomendacion_usuario(usuario_id):"
 Cree un ejemplo para revisar que devuelva informacion.
 Genere el Genere el endpoint en FastAPI y cargue alli el archivo.
 
-11) En el repositorio de GitHub "https://github.com/Silvanaggs15/PI-Henry", puedes encontrar los siguientes archivos relevantes:
+11) Repositorio y archivos relevantes:
+En el repositorio de GitHub "https://github.com/Silvanaggs15/PI-Henry", puedes encontrar los siguientes archivos relevantes:
 
-Proyecto Individual: En este ipynb se encuentran:
+*Proyecto Individual: En este ipynb se encuentran:
 - ETL: El archivo ETL contiene el código y los detalles de las transformaciones de datos realizadas en el proyecto.
 - Los códigos correspondientes a las funciones implementadas para los endpoints de la API. Cada función se asocia a una consulta específica mencionada previamente.
 
-EDA: El archivo EDA contiene el código y las visualizaciones generadas durante el análisis exploratorio de datos. Aquí se exploraron las relaciones entre las variables del dataset, se identificaron outliers o anomalías y se buscaron patrones interesantes.
+*EDA: El archivo EDA contiene el código y las visualizaciones generadas durante el análisis exploratorio de datos. Aquí se exploraron las relaciones entre las variables del dataset, se identificaron outliers o anomalías y se buscaron patrones interesantes.
 
-Además de estos archivos, el repositorio también puede contener otros recursos relevantes como datos adicionales, documentación adicional o notebooks utilizados en el proceso de desarrollo.
+*Además de estos archivos, el repositorio también puede contener otros recursos relevantes como datos adicionales, documentación adicional o notebooks utilizados en el proceso de desarrollo.
+
+
 
