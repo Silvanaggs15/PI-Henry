@@ -73,5 +73,13 @@ En el repositorio de GitHub "https://github.com/Silvanaggs15/PI-Henry", puedes e
 
 *Además de estos archivos, el repositorio también puede contener otros recursos relevantes como datos adicionales, documentación adicional o notebooks utilizados en el proceso de desarrollo.
 
+12) Conclusiones:
+En este proyecto personal de Machine Learning, asumí el rol de un Data Scientist y trabajé en la creación de un sistema de recomendación de juegos para una plataforma de juegos. Realicé tareas de Data Engineering, desarrollé una API utilizando FastAPI, realicé análisis exploratorio de datos (EDA) y creé un sistema de recomendación basado en usuarios similares.
+
+A lo largo del proyecto, adquirí experiencia en el manejo y transformación de datos, implementé consultas en una API, realicé análisis exploratorio de datos y utilicé técnicas de cálculo de similitud para recomendar juegos. El despliegue de la API permitió que los departamentos de Analytics y Machine Learning pudieran consumir los datos y utilizar el sistema de recomendación en sus procesos.
+
+El repositorio de GitHub "https://github.com/Silvanaggs15/PI-Henry" contiene todos los archivos relevantes y el código desarrollado durante el proyecto. También puedes acceder a la API y consultar la documentación en el siguiente enlace: https://silvana-deploy.onrender.com
+
+¡Gracias por revisar mi proyecto!
 
 
