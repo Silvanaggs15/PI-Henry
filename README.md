@@ -51,7 +51,7 @@ Genere el endpoint en FastAPI y cargue alli el archivo.
 El proyecto se deployó utilizando el servicio Render para que la API sea consumible desde la web. Puedes acceder a la API y consultar la documentación en el siguiente enlace:https://silvana-deploy.onrender.com
 
 9) EDA: 
-Se realizó un análisis exploratorio de datos (EDA) con el archivo "user_juegosEDA.csv", para investigar las relaciones entre las variables del dataset y descubrir patrones. Se utilizaron técnicas de visualización y se generaron gráficas. 
+Se realizó un análisis exploratorio de datos (EDA) con el archivo "user_juegos.csv", para investigar las relaciones entre las variables del dataset y descubrir patrones. Se utilizaron técnicas de visualización y se generaron gráficas. 
 
 10) Modelo de Aprendizaje automatico:
 Se desarrolló un sistema de recomendación "user-item" basado en juegos similares. Se calculó la similitud del coseno entre un usuario dado y todos los demas usuarios. Luego se obtuvo los índices de los usuarios similares, para que a partir de esa informacion se pudiera obtener los juegos preferidos por los usuarios similares. Se aplicó un filtro de juegos que el usuario ya hubiera jugado para poder así devolver 5 juegos recomendados para dicho usuario. Esta función , llamada "def recomendacion_usuario( id de usuario ):", fue implementada en la API.
