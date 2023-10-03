@@ -2,7 +2,7 @@ PROYECTO INDIVIDUAL N° 1:
 Este es mi proyecto personal de Machine Learning Operations (MLOPS).
 
 Descripcion del proyecto
-En este proyecto, asumí el rol de un Data Scientist en Steam, una plataforma multinacional de videojuegos.
+En este proyecto, asumí el rol de un Data Scientist en Steam, una plataforma de videojuegos.
 El objetivo principal fue crear un sistema de recomendación como mi primer modelo de Machine Learning para solucionar un problema de negocio.Steam me encargó crear un sistema de recomendación de videojuegos para usuarios. Al revisar los datos disponibles, encontré que la calidad de los mismos era muy baja y no estaban listos para su procesamiento. Esto implicó realizar un trabajo de Data Engineering para transformar los datos y obtener un Minimum Viable Product (MVP) para el cierre del proyecto.
 
 El proyecto abordó el ciclo de vida completo de un proyecto de Machine Learning, desde el tratamiento de datos hasta el entrenamiento y mantenimiento del modelo de ML. Además, se desarrolló una API utilizando el framework FastAPI para disponibilizar los datos de la plataforma y se implementaron diferentes consultas para interactuar. También realicé un análisis exploratorio de datos (EDA) para investigar las relaciones entre las variables del dataset, identificar outliers o anomalías, y descubrir patrones interesantes que podrían ser útiles en análisis posteriores. A su vez, desarrollé un sistema de recomendación basado en videos juegos similares utilizando técnicas de cálculo de similitud.
